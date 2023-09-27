@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        inter: ["Inter"],
+      },
+      fontSize: {
+        "2.5xl": "26px",
+      },
+      colors: {
+        "twitter-blue": "#1D9BF0",
+        "twitter-blue-hover": "#1871CA",
+        "searchbar-fill": "#212327",
+        stroke: "rgba(29, 155, 240, 0.24)",
+        "twitter-neutral": {
+          50: "#F9F9F9",
+          100: "#F4F4F4",
+          200: "#E4E4E4",
+          300: "#D3D3D3",
+          400: "#A2A2A2",
+          500: "#737373",
+          600: "#525252",
+          700: "#404040",
+          800: "#262626",
+          900: "#171717",
+          950: "#0A0A0A",
+          1000: "#000000",
+        },
+      },
+      borderRadius: {
+        sm: "65px",
+        mm: "30px",
+        lm: "9999px",
+      },
+      spacing: {
+        3: "3px",
+        88: "334px",
+        66: "35px",
+        38: "38px",
+        59: "59px",
+        15: "15px",
+        19: "19px",
+        93: "93px",
+        85: "85px",
+        33: "33px",
+        43: "43px",
+        442: "442px",
+        29: "29px",
+        70:'70px',
+        98: "98px",
+        49: "49px",
+        200:"200px",
+        222: "222px",
+        598: "598px",
+        58: "58px",
+        426: "426px",
+        402: "402px",
+        482: "482px",
+        348: "348px",
+        247: "247px",
+        355: "355px",
+        512: "512px",
+      },
+      boxShadow: {
+        neutral: "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
+      },
+    },
+  },
+  plugins: [],
+};
+
